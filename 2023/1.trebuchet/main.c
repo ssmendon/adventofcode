@@ -76,6 +76,8 @@ typedef enum SEEN
 */
 [[noreturn]] static void usage(void)
 {
+    // For details about the format of a usage string, check out: https://en.wikipedia.org/wiki/Usage_message
+
     (void)fprintf(stderr, "Usage: %s [filename]\n", Argv0); // fprintf returns a status code, which we silently ignore.
     exit(EXIT_FAILURE);
 }
