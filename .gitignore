@@ -1,0 +1,5 @@
+# Ignore the directory "build" at the root of the project.
+# build is used by the CMake extension in VS Code by default.
+# Generally speaking, source code repositories should only store source code
+# because they're much worse at tracking arbitrary binary files.
+/build/
